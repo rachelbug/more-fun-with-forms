@@ -2,11 +2,27 @@ body {
   letter-spacing: 1px;
 }
 
-.btn {
+.btn-cust {
   letter-spacing: 1px;
-  color: purple;
+  color: #e6b3cc;
+  background-color: #862d59;
+  border-style: solid;
+  border-color: #000;
+}
+
+.btn-cust:hover {
+  letter-spacing: 1px;
+  color: #862d59;
+  background: #e6b3cc;
+  border-style: solid;
+  border-color: #000;
 }
 
 #response {
   display: none;
+}
+
+.answers {
+  color: #862d59;
+  font-weight: bold;
 }
